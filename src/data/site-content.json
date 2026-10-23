@@ -1,0 +1,399 @@
+{
+  "_fileComment": "Yeh file poori website ka STATIC content rakhti hai. Titles, subtitles, descriptions, images, links, prices — sab yahan se edit karo. HomePage.tsx is JSON se data read karta hai. Keys jo _ se start hoti hain comments/docs hain (UI mein show nahi hoti).",
+
+  "seo": {
+    "_comment": "Browser tab title aur Google/meta description — layout.tsx mein use hoti hain",
+    "title": "N&N International | Dr. Nadeem and Associates",
+    "description": "N&N International. Pakistan's trusted grooming house — men's grooming, cosmetics, skincare, haircare and fragrances.",
+    "ogImage": "/assets/images/face-wash.jpg"
+  },
+
+  "brand": {
+    "_comment": "Header logo / brand wordmark — har page ke top nav mein dikhta hai",
+    "name": "N&N International",
+    "tagline": "Dr. Nadeem and Associates",
+    "ariaLabel": "N&N International, Dr. Nadeem and Associates",
+    "homeHref": "#top"
+  },
+
+  "nav": {
+    "_comment": "Header aur footer ke Explore links — href page ke section IDs hain",
+    "links": [
+      { "label": "Philosophy", "href": "#philosophy" },
+      { "label": "Brands", "href": "#brands" },
+      { "label": "Shop", "href": "#shop" },
+      { "label": "Categories", "href": "#categories" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "menuOpenLabel": "Open menu",
+    "menuCloseLabel": "Close menu"
+  },
+
+  "hero": {
+    "_comment": "Pehla full-screen hero section (#top)",
+    "kicker": "Men's grooming, skincare, haircare and fragrance",
+    "titleBefore": "Groomed with ",
+    "titleEmphasized": "intent.",
+    "description": "N&N International brings together Pakistan's most trusted grooming and cosmetics names — from WB by Hemani to Saeed Ghani — for men who value care over clutter.",
+    "primaryCta": {
+      "_comment": "Gold solid button — Shop section tak scroll",
+      "label": "Explore the range",
+      "href": "#shop"
+    },
+    "secondaryCta": {
+      "_comment": "Outline button — Brands section tak scroll",
+      "label": "Meet the brands",
+      "href": "#brands"
+    },
+    "scrollCue": "Scroll to explore",
+    "featuredProduct": {
+      "_comment": "Hero ke right side pe spinning product card",
+      "name": "WB by Hemani",
+      "url": "https://hemaniherbals.com",
+      "ariaLabel": "WB by Hemani — visit official website, opens in new tab",
+      "image": "/assets/images/face-wash.jpg",
+      "imageAlt": "Herbal face wash bottle",
+      "backLabelLines": ["WB by", "Hemani"],
+      "price": "Rs. 001",
+      "visitHint": "Visit official site →"
+    }
+  },
+
+  "philosophy": {
+    "_comment": "Centered philosophy section (#philosophy)",
+    "kicker": "Our approach",
+    "title": "Grooming is a daily ritual, not a transaction.",
+    "description": "A focused selection across grooming, cosmetics, skincare, haircare and fragrance — curated from Pakistan's most loved brands, led by Dr. Nadeem Nazir."
+  },
+
+  "brands": {
+    "_comment": "Featured Pakistani brands grid (#brands) — har card official brand website pe jata hai",
+    "kicker": "Featured Pakistani brands",
+    "title": "The names we stand behind.",
+    "visitLabel": "Visit official website",
+    "note": "Prices are temporary (Rs. 001) — update price fields in this JSON. Official links ko publish se pehle verify karo.",
+    "items": [
+      {
+        "_comment": "Brand card 1 — WB by Hemani",
+        "id": "wb-hemani",
+        "name": "WB by Hemani",
+        "tag": "Grooming · Face Wash",
+        "description": "Herbal face wash, beard oil and grooming essentials rooted in Pakistani tradition.",
+        "price": "Rs. 001",
+        "url": "https://hemaniherbals.com",
+        "ariaLabel": "WB by Hemani — visit official website",
+        "image": "/assets/images/face-wash.jpg",
+        "imageAlt": "WB by Hemani herbal face wash"
+      },
+      {
+        "_comment": "Brand card 2 — Saeed Ghani",
+        "id": "saeed-ghani",
+        "name": "Saeed Ghani",
+        "tag": "Skincare · Cream",
+        "description": "Time-honoured skincare, rose water and whitening creams since generations.",
+        "price": "Rs. 001",
+        "url": "https://saeedghani.com.pk",
+        "ariaLabel": "Saeed Ghani — visit official website",
+        "image": "/assets/images/face-cream.jpg",
+        "imageAlt": "Saeed Ghani skincare cream jar"
+      },
+      {
+        "_comment": "Brand card 3 — Bonjour",
+        "id": "bonjour",
+        "name": "Bonjour",
+        "tag": "Haircare · Shampoo",
+        "description": "Everyday haircare shampoos and oils crafted for Pakistani hair and climate.",
+        "price": "Rs. 001",
+        "url": "https://bonjourcosmetics.pk",
+        "ariaLabel": "Bonjour — visit official website",
+        "image": "/assets/images/shampoo.jpg",
+        "imageAlt": "Bonjour herbal shampoo bottle"
+      },
+      {
+        "_comment": "Brand card 4 — Al-Rehan",
+        "id": "al-rehan",
+        "name": "Al-Rehan",
+        "tag": "Fragrance · Attar",
+        "description": "Oud and attar blends — a signature scent carrying real heritage.",
+        "price": "Rs. 001",
+        "url": "https://alrehan.com.pk",
+        "ariaLabel": "Al-Rehan — visit official website",
+        "image": "/assets/images/perfume.jpg",
+        "imageAlt": "Al-Rehan attar oud bottle"
+      },
+      {
+        "_comment": "Brand card 5 — J. Fragrances",
+        "id": "j-fragrances",
+        "name": "J. Fragrances",
+        "tag": "Fragrance · Perfume",
+        "description": "Modern Pakistani perfumery made for the everyday gentleman.",
+        "price": "Rs. 001",
+        "url": "https://www.j.com.pk",
+        "ariaLabel": "J. Fragrances — visit official website",
+        "image": "/assets/images/perfume.jpg",
+        "imageAlt": "J. Fragrances perfume bottle"
+      },
+      {
+        "_comment": "Brand card 6 — Medora",
+        "id": "medora",
+        "name": "Medora",
+        "tag": "Cosmetics",
+        "description": "Classic Pakistani cosmetics, trusted across generations.",
+        "price": "Rs. 001",
+        "url": "https://medora.com.pk",
+        "ariaLabel": "Medora — visit official website",
+        "image": "/assets/images/sunscreen.jpg",
+        "imageAlt": "Medora cosmetics"
+      }
+    ]
+  },
+
+  "shop": {
+    "_comment": "Shop the range section (#shop) — 7 product cards",
+    "kicker": "Shop the range",
+    "title": "Seven essentials, one routine.",
+    "description": "Curated picks across fragrance, skincare and haircare — each card links through once you add the real product page.",
+    "ctaLabel": "View Product",
+    "note": "Product images public/assets/images/ se load hoti hain. Prices placeholders hain (Rs. 001). View Product abhi Contact section (#contact) pe jata hai — real product/WhatsApp link yahan href mein lagao.",
+    "products": [
+      {
+        "_comment": "Shop product 1",
+        "id": "signature-perfume",
+        "name": "Signature Perfume",
+        "tag": "Fragrance",
+        "description": "A long-lasting, confident scent made for everyday wear.",
+        "price": "Rs. 001",
+        "href": "#contact",
+        "image": "/assets/images/perfume.jpg",
+        "imageAlt": "Men's perfume bottle"
+      },
+      {
+        "_comment": "Shop product 2",
+        "id": "daily-face-wash",
+        "name": "Daily Face Wash",
+        "tag": "Grooming",
+        "description": "Deep-cleansing, oil-free formula for a fresh everyday start.",
+        "price": "Rs. 001",
+        "href": "#contact",
+        "image": "/assets/images/face-wash.jpg",
+        "imageAlt": "Men's face wash bottle"
+      },
+      {
+        "_comment": "Shop product 3",
+        "id": "hydrating-face-cream",
+        "name": "Hydrating Face Cream",
+        "tag": "Skincare",
+        "description": "Lightweight daytime moisture that keeps skin balanced.",
+        "price": "Rs. 001",
+        "href": "#contact",
+        "image": "/assets/images/face-cream.jpg",
+        "imageAlt": "Face cream jar"
+      },
+      {
+        "_comment": "Shop product 4",
+        "id": "repair-night-cream",
+        "name": "Repair Night Cream",
+        "tag": "Skincare",
+        "description": "A richer overnight formula that works while you rest.",
+        "price": "Rs. 001",
+        "href": "#contact",
+        "image": "/assets/images/night-cream.jpg",
+        "imageAlt": "Night cream jar"
+      },
+      {
+        "_comment": "Shop product 5",
+        "id": "everyday-shampoo",
+        "name": "Everyday Shampoo",
+        "tag": "Haircare",
+        "description": "A gentle, everyday wash that keeps hair clean and healthy.",
+        "price": "Rs. 001",
+        "href": "#contact",
+        "image": "/assets/images/shampoo.jpg",
+        "imageAlt": "Shampoo bottle"
+      },
+      {
+        "_comment": "Shop product 6",
+        "id": "nourishing-beard-oil",
+        "name": "Nourishing Beard Oil",
+        "tag": "Grooming",
+        "description": "Softens and conditions for a healthier, fuller-looking beard.",
+        "price": "Rs. 001",
+        "href": "#contact",
+        "image": "/assets/images/beard-oil.jpg",
+        "imageAlt": "Beard oil dropper bottle"
+      },
+      {
+        "_comment": "Shop product 7",
+        "id": "daily-sunscreen",
+        "name": "Daily Sunscreen SPF",
+        "tag": "Skincare",
+        "description": "Lightweight, non-greasy protection for everyday sun exposure.",
+        "price": "Rs. 001",
+        "href": "#contact",
+        "image": "/assets/images/sunscreen.jpg",
+        "imageAlt": "Sunscreen tube"
+      }
+    ]
+  },
+
+  "categories": {
+    "_comment": "Category showcase scenes (Grooming / Skincare / Haircare / Fragrance). Pehli scene #categories ID use karti hai nav ke liye.",
+    "items": [
+      {
+        "_comment": "Category block — Grooming (reversed layout)",
+        "id": "grooming",
+        "sectionId": "categories",
+        "reversed": true,
+        "kicker": "Grooming",
+        "title": "Everyday essentials, done properly.",
+        "description": "Shaving, beard care and the daily basics that keep a routine simple.",
+        "badge": {
+          "_comment": "Left side product badge row",
+          "title": "WB by Hemani — Herbal Face Wash",
+          "subtitle": "Deep-cleanse, oil-free, made for everyday Pakistani skin",
+          "price": "Rs. 001",
+          "url": "https://hemaniherbals.com",
+          "image": "/assets/images/face-wash.jpg",
+          "imageAlt": "Face wash"
+        },
+        "floatCard": {
+          "_comment": "Right side spinning product card",
+          "name": "WB by Hemani",
+          "url": "https://hemaniherbals.com",
+          "ariaLabel": "WB by Hemani — visit official website, opens in new tab",
+          "image": "/assets/images/face-wash.jpg",
+          "imageAlt": "Face wash bottle",
+          "backLabelLines": ["Face", "Wash"],
+          "price": "Rs. 001",
+          "visitHint": "Visit official site →"
+        }
+      },
+      {
+        "_comment": "Category block — Skincare",
+        "id": "skincare",
+        "reversed": false,
+        "kicker": "Skincare",
+        "title": "Skin that is looked after.",
+        "description": "Cleansers, moisturisers, sunblock and treatments for a clear, steady routine.",
+        "badge": {
+          "title": "Saeed Ghani — Rose Water, Cream & Sunblock SPF",
+          "subtitle": "A legacy skincare staple, since generations",
+          "price": "Rs. 001",
+          "url": "https://saeedghani.com.pk",
+          "image": "/assets/images/sunscreen.jpg",
+          "imageAlt": "Sunblock SPF cream"
+        },
+        "floatCard": {
+          "name": "Saeed Ghani",
+          "url": "https://saeedghani.com.pk",
+          "ariaLabel": "Saeed Ghani — visit official website, opens in new tab",
+          "image": "/assets/images/face-cream.jpg",
+          "imageAlt": "Skincare cream jar",
+          "backLabelLines": ["Skin", "Cream"],
+          "price": "Rs. 001",
+          "visitHint": "Visit official site →"
+        }
+      },
+      {
+        "_comment": "Category block — Haircare (reversed layout)",
+        "id": "haircare",
+        "reversed": true,
+        "kicker": "Haircare",
+        "title": "Wash, style, finish.",
+        "description": "Products for hair that holds its shape and feels healthy.",
+        "badge": {
+          "title": "Bonjour — Herbal Shampoo",
+          "subtitle": "Everyday wash made for local hair and water",
+          "price": "Rs. 001",
+          "url": "https://bonjourcosmetics.pk",
+          "image": "/assets/images/shampoo.jpg",
+          "imageAlt": "Herbal shampoo"
+        },
+        "floatCard": {
+          "name": "Bonjour",
+          "url": "https://bonjourcosmetics.pk",
+          "ariaLabel": "Bonjour — visit official website, opens in new tab",
+          "image": "/assets/images/shampoo.jpg",
+          "imageAlt": "Shampoo bottle",
+          "backLabelLines": ["Shampoo"],
+          "price": "Rs. 001",
+          "visitHint": "Visit official site →"
+        }
+      },
+      {
+        "_comment": "Category block — Fragrance",
+        "id": "fragrance",
+        "reversed": false,
+        "kicker": "Fragrance",
+        "title": "A signature, not a spray.",
+        "description": "Scents chosen to be remembered for the right reasons.",
+        "badge": {
+          "title": "J. Fragrances & Al-Rehan Attar",
+          "subtitle": "Perfume and attar, picked for every occasion",
+          "price": "Rs. 001",
+          "url": "https://www.j.com.pk",
+          "image": "/assets/images/perfume.jpg",
+          "imageAlt": "Perfume bottle"
+        },
+        "floatCard": {
+          "name": "J. Fragrances",
+          "url": "https://www.j.com.pk",
+          "ariaLabel": "J. Fragrances — visit official website, opens in new tab",
+          "image": "/assets/images/perfume.jpg",
+          "imageAlt": "Perfume bottle",
+          "backLabelLines": ["Perfume"],
+          "price": "Rs. 001",
+          "visitHint": "Visit official site →"
+        }
+      }
+    ]
+  },
+
+  "expectations": {
+    "_comment": "Teen feature columns — Clear range / Direct contact / Straight answers",
+    "title": "What you can expect.",
+    "items": [
+      {
+        "title": "Clear range",
+        "description": "Four categories, easy to browse and compare, from trusted Pakistani brands."
+      },
+      {
+        "title": "Direct contact",
+        "description": "Reach the team by phone, email or message."
+      },
+      {
+        "title": "Straight answers",
+        "description": "No pressure. Ask, compare, then decide."
+      }
+    ]
+  },
+
+  "contact": {
+    "_comment": "Final CTA section (#contact) — abhi mailto placeholder use ho raha hai",
+    "title": "Start your routine with us.",
+    "description": "Tell us what you are looking for and we will point you to the right products.",
+    "ctaLabel": "Contact N&N International",
+    "ctaHref": "mailto:info@example.com"
+  },
+
+  "footer": {
+    "_comment": "Page footer — brand blurb, team names, explore links, copyright",
+    "name": "N&N International",
+    "associates": "Dr. Nadeem and Associates",
+    "blurb": "Men's grooming, cosmetics, skincare, haircare and fragrances.",
+    "peopleHeading": "The people behind the brand",
+    "people": [
+      {
+        "_comment": "Lead person — role + name (full-width row)",
+        "role": "Led by",
+        "name": "Dr. Nadeem Nazir"
+      },
+      { "name": "Nabeel" },
+      { "name": "Ahmad" },
+      { "name": "Tahseen" }
+    ],
+    "exploreHeading": "Explore",
+    "copyrightSuffix": "N&N International. All rights reserved.",
+    "backToTopLabel": "Back to top"
+  }
+}
